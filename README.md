@@ -14,7 +14,7 @@ Administrator privilages may be required to run the app. This can be done by run
 
 ```
 # clone this repository
-git clone https://github.com/VeronicaLoy/pulmonary_fibrosis_progression.git
+git clone https://github.com/VeronicaLoy/pulmonary-fibrosis-progression.git
 
 cd pulmonary-fibrosis-progression
 
