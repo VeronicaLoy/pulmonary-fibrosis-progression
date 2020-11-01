@@ -49,3 +49,5 @@ The system consists of 4 machine learning sub-models and an ensemble model which
 - CNN model
 
 ![alt text](https://github.com/VeronicaLoy/pulmonary-fibrosis-progression/blob/master/images/system%20architecture.png)
+
+Inputs by the user are accepted through a web-based GUI, which also displays the prediction results.The inputs first go through the necessary pre-processing steps before being fed into the individual models. The model outputs are then passed through the ensemble model before being returned to the user as a 133-week forecast of the patient’s FVC and the confidence in each week’s forecast.
