@@ -34,10 +34,7 @@ Alternatively, you can access the app [here](http://54.186.100.151:8501/). Due t
 
 The app requires patient details to be indicated, and a zip folder containing CT scans of patients lungs in to be uploaded before prediction. The CT scans has to be in .dcm format. A sample of this zip folder of .dcm images can be found under `sample dataset` folder.
 
-<div style="text-align:center">
-<img src=https://github.com/VeronicaLoy/pulmonary-fibrosis-progression/blob/master/images/front-end.gif>
-</div>
-<div style="text-align:center">![alt text](https://github.com/VeronicaLoy/pulmonary-fibrosis-progression/blob/master/images/front-end.gif)<div>
+![alt text](https://github.com/VeronicaLoy/pulmonary-fibrosis-progression/blob/master/images/front-end.gif)
 
 # About the Model
 
@@ -48,4 +45,4 @@ The system consists of 4 machine learning sub-models and an ensemble model which
 - Huber linear model
 - CNN model
 
-<div style="text-align:center">![alt text](https://github.com/VeronicaLoy/pulmonary-fibrosis-progression/blob/master/images/system%20architecture.png)<div>
+![alt text](https://github.com/VeronicaLoy/pulmonary-fibrosis-progression/blob/master/images/system%20architecture.png)
