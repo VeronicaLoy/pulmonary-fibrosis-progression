@@ -5,8 +5,8 @@
 Artificial Intelligence and Machine Learning has been used in the Medical field from the early 70s, when AI itself was only 15 years old, since then AI has been used to assist medical professionals to make informed decisions where they would not normally be able to identify root causes. One such case would be in fibrotic lung disease progression prediction, which this project aims to solve. Using patient information and CT scans and processed through an ensemble of neural networks and traditional machine learning techniques , the application will return clinicians a prediction of the progression of the patient's lung function decline via the proxy of forced vital capacity or FVC.
 
 
-# Getting Started 
 
+# Getting Started 
 
 Ensure that [anaconda or miniconda](https://docs.conda.io/en/latest/miniconda.html) is installed. Also ensure that [Git Large File Storage](https://git-lfs.github.com/) is installed.
 
@@ -35,6 +35,9 @@ Alternatively, you can access the app [here](http://54.186.100.151:8501/). Due t
 The app requires patient details to be indicated, and a zip folder containing CT scans of patients lungs in to be uploaded before prediction. The CT scans has to be in .dcm format. A sample of this zip folder of .dcm images can be found under `sample dataset` folder.
 
 ![alt text](https://github.com/VeronicaLoy/pulmonary-fibrosis-progression/blob/master/images/front-end.gif)
+
+
+
 
 # About the Model
 
