@@ -8,7 +8,8 @@ Artificial Intelligence and Machine Learning has been used in the Medical field 
 # Getting Started 
 
 
-Ensure you have [conda](https://docs.conda.io/en/latest/miniconda.html) installed.
+Ensure that [anaconda or miniconda](https://docs.conda.io/en/latest/miniconda.html) is installed. Also ensure that [Git Large File Storage](https://git-lfs.github.com/) is installed.
+ 
 Execute the following commands in terminal to run the application locally. The commands below clones this repository, and install all the necessary packages in a new environment named 'fibrosis', before starting the application in http://localhost:8501/.
 
 Administrator privilages may be required to run the app. This can be done by running Anaconda prompt as an administrator on Windows.
