@@ -9,7 +9,7 @@ Artificial Intelligence and Machine Learning has been used in the Medical field 
 
 
 Ensure that [anaconda or miniconda](https://docs.conda.io/en/latest/miniconda.html) is installed. Also ensure that [Git Large File Storage](https://git-lfs.github.com/) is installed.
- 
+
 Execute the following commands in terminal to run the application locally. The commands below clones this repository, and install all the necessary packages in a new environment named 'fibrosis', before starting the application in http://localhost:8501/.
 
 Administrator privilages may be required to run the app. This can be done by running Anaconda prompt as an administrator on Windows.
@@ -34,13 +34,7 @@ Alternatively, you can access the app [here](http://54.186.100.151:8501/). Due t
 
 The app requires patient details to be indicated, and a zip folder containing CT scans of patients lungs in to be uploaded before prediction. The CT scans has to be in .dcm format. A sample of this zip folder of .dcm images can be found under `sample dataset` folder.
 
-
- < insert gif here to show uploading and toggling of app>
-
-
-
-
-
+![alt text](https://github.com/VeronicaLoy/pulmonary-fibrosis-progression/blob/master/images/front-end.gif)
 
 # About the Model
 
