@@ -9,7 +9,7 @@ Artificial Intelligence and Machine Learning has been used in the Medical field 
 
 
 Ensure you have [conda](https://docs.conda.io/en/latest/miniconda.html) installed.
-Execute the following commands in terminal to run the application locally. The commands below clones this repository, and install all the necessary packages in a new environment named 'fibrosis', before running the application in http://localhost:8501/.
+Execute the following commands in terminal to run the application locally. The commands below clones this repository, and install all the necessary packages in a new environment named 'fibrosis', before starting the application in http://localhost:8501/.
 
 Administrator privilages may be required to run the app. This can be done by running Anaconda prompt as an administrator on Windows.
 
@@ -29,7 +29,7 @@ streamlit run app.py
 The app requires patient details to be indicated, and a zip folder containing CT scans of patients lungs in to be uploaded before prediction. The CT scans has to be in .dcm format. A sample of this zip folder of .dcm images can be found under `sample dataset` folder.
 
 
-Alternatively, you can access the app [here](http://54.186.100.151:8501/). Due to hosting limitations, the model hosted at the aforementioned url is a simplied version, which contains three out of four models in the ensemble - the MLP model, EfficientNet model, and Huber Linear model. (see section on About the Model below for more information). The application will be hosted on at the aforementioned link for a period of 2 months, till 31st December 2020.
+Alternatively, you can access the app [here](http://54.186.100.151:8501/). Due to hosting limitations, the publicly hosted model is a simplied version, which contains three out of four models in the ensemble - the MLP model, EfficientNet model, and Huber Linear model (see section on About the Model below for more information). The application will be hosted on at the aforementioned link for a period of 2 months, till 31st December 2020.
 
 
 
