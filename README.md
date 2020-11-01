@@ -50,6 +50,4 @@ The system consists of 4 machine learning sub-models and an ensemble model which
 - Huber linear model
 - CNN model
 
-
-
- < insert system architecture here to show uploading and toggling of app>
+![alt text](https://github.com/VeronicaLoy/pulmonary-fibrosis-progression/blob/master/images/system%20architecture.png)
