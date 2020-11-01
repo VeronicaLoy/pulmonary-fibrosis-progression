@@ -26,8 +26,8 @@ def main():
     st.sidebar.markdown('')
     age = st.sidebar.slider('Age', 1, 100)
     fvc = st.sidebar.slider('FVC', 1, 5000)
-    percent = st.sidebar.slider('Percentage of Normal FVC', 1, 100)
-    week = st.sidebar.slider('Weeks passed after CT scan', -100, 100)
+    percent = st.sidebar.slider('Patients FVC as a percentage of Normal FVC', 1, 100)
+    week = st.sidebar.slider('Number of weeks between FVC measurement and CT scan', -10, 100)
 
     # main page
     st.title('Predicting Pulmonary Fibrosis Progression')
@@ -57,7 +57,7 @@ def main():
         except(zipfile.BadZipFile): 
             st.markdown("<font color='red'>Note: Please upload a zip file</font>", unsafe_allow_html=True)
 
-    if (age!=1) and (fvc!=1) and (percent!=1) and (week!=-100) and (uploaded_file is not None):     
+    if (age!=1) and (fvc!=1) and (percent!=1) and (week!=-10) and (uploaded_file is not None):     
         st.subheader("FVC prediction for weeks 0 to 133")
 
         patient_name = image_path
