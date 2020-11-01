@@ -2,8 +2,7 @@
 
 # Introduction
 
-Artificial Intelligence and Machine Learning has been used in the Medical field from the early 70s, when AI itself was only 15 years old, since then AI has been used to assist medical professionals to make informed decisions where they would not normally be able to identify root causes. One such case would be in fibrotic lung disease progression prediction, which this project aims to solve. Using patient information and CT scans and processed through an ensemble of neural networks and traditional machine learning techniques , the application will return clinicians a prediction of the progression of the patient's lung function decline via the proxy of forced vital capacity or FVC.
-
+Artificial Intelligence (AI) and Machine Learning has been used in the medical field from the early 70s, when AI was only 15 years old (Kaul MD, FASGE et al., 2020, #). Since then, AI has been used to assist medical professionals to make informed decisions, particularly in areas where diagnosis or prediction is less straightforward. One such case would be to predict the progression of fibrotic lung disease progression, which is what this project aims to solve. Using patient information and Computerized Tomography (CT) scans and processed through an ensemble of neural networks and traditional machine learning techniques, the application will return clinicians a prediction of the progression of the patient's lung function decline via the proxy of forced vital capacity or FVC.
 
 
 # Getting Started 
